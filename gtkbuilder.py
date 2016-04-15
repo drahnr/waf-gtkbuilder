@@ -9,6 +9,5 @@ TaskGen.declare_chain(
 	rule = 'gtk-builder-tool validate ${SRC}',
 	ext_in = ['.ui','.ui.in'],
 	reentrant = False,
-	install_path = '${UIDIR}',
 	color = 'CYAN',
 )

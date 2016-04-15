@@ -17,6 +17,6 @@ def configure(cfg):
 def build(bld):
 	bld.load('gtkbuilder', tooldir='.')
 
-	bld(source='gtkbuilder.ui tool.ui verify.ui please.ui')
+	bld(source='gtkbuilder.ui tool.ui verify.ui please.ui', install_path='/some/where/')
 
 ```
